@@ -10,16 +10,8 @@ cd ~/dev/git/cron
 date
 which python
 spy
-
-
 #sleep 20
-
-
-
 # s'endormir et se réveiller à 3h55 demain
-
-
-
 
 #rtcwake -m mem -t $(date +\%s -d "tomorrow 03:55")
 #sudo rtcwake -m no -t $(date +\%s -d "tomorrow 03:55")
