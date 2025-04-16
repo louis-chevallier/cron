@@ -15,12 +15,12 @@ date
 pwd
 export MINEKOLEVEL=INFO
 env666
-cd ~/dev/git/cron
+cd /deploy/cron/cron
 date
 which python
 spy
 
-if test -f ./no_suspend.txt; then
+if test -f ../no_suspend.txt; then
     echo exiting, no suspend
     exit 1
 fi

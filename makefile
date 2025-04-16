@@ -10,5 +10,5 @@ WOD?='$(shell fortune -s | sed -e 's/["]//g' | sed -e "s/[']//g")'
 deploy :
 	-git commit -a -m $(WOD)
 	-git push
-	-cd $(DEPLOY_DIR); rm -fr cron; git clone  https://github.com/louis-chevallier/cron.git; 
+	-cd $(DEPLOY_DIR)/cron; rm -fr cron; git clone  https://github.com/louis-chevallier/cron.git; 
 
